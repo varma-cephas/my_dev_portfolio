@@ -1,0 +1,10 @@
+.projects-heading{
+    color: #F6F4F5;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.projects-heading h2{
+    border-bottom: 2px solid #656553;
+    padding-bottom: 2rem;
+}
