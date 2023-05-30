@@ -17,3 +17,22 @@
     text-decoration: none;
     color: #ffb0a2;
 }
+
+.hero-section{
+    color: #F6F4F5;
+}
+
+.hero-section h3{
+    font-size: 1.4rem;
+    /* border: 2px solid red; */
+    padding-left: 2rem;
+}
+
+.hero-section .answer{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.hero-section p{
+    padding: 0 1.9rem 0 2rem;
+}
