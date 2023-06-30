@@ -14,10 +14,10 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-image: url(assets/images/texture2.jpg);
-    
     font-family: NotoSans;
 }
+
+
 
 nav ul{
     margin: 0;
@@ -39,8 +39,47 @@ nav ul .mode-moon-tablet{
 }
 nav a{
     text-decoration: none;
+    /* color: #F6F4F5; */
+    color: black;
+}
+
+.toggleLightDarkMode{
+    background-image: url(assets/images/texture2.jpg);
+    /* background: white; */
+}
+
+.light-text{
+    display: none;
+}
+
+.toggleDarkText{
+    display: none;
+}
+
+.toggleMoonIcon{
+    display: none;
+}
+
+.toggleLightText{
+    display: block;
+}
+
+.lightModeText{
+    display: none;
+}
+
+.toggleLightModeText{
+    display: block;
+}
+
+.changeNavColor{
     color: #F6F4F5;
 }
+
+/* .lightMode{
+    display: none;
+} */
+
 
 nav li:first-child{
     /* border: 2px solid gold; */
@@ -56,6 +95,11 @@ nav ul .logo-view-mode{
 
 .logo{
     padding-top: 1rem;
+}
+
+
+.toggleLightMode{
+    
 }
 
 .nav-item{
@@ -374,4 +418,9 @@ nav ul .logo-view-mode{
     nav li .left-line-tablet{
         padding-left: 24rem;
     }
+}
+
+
+#textInHeader a{
+    color: black;
 }

@@ -10,9 +10,12 @@
                 <ul>
                     <li class="logo-view-mode">
                         <a class="logo" href="index.html">Varma-C</a>
-                        <div class="mode-moon view-mode">
-                        <img src="assets/images/moon-solid.svg" alt="">
-                        <a href="#" class="mode">Mode</a>
+                        <div class="mode-moon view-mode" id="moon-mode">
+                        <img class="moon-icon" src="assets/images/moon-solid.svg" alt="">
+                        <a href="#" class="mode">Dark</a>
+                        <a href="#" class="lightModeText">Light</a>
+                        <!-- <a href="#" class="lightMode">Light</a> -->
+                        <img src="assets/images/sunny-outline.svg" alt="">
                         </div>
                     </li>
                     <li>
@@ -31,11 +34,14 @@
                         <div class="right-line-tablet"></div>
                     </li>
                     <div class="mode-moon-tablet view-mode-tablet">
-                        <img src="assets/images/moon-solid.svg" alt="">
-                        <a href="#" class="tablet-mode">Mode</a>
-                        </div>
+                        <img class="tablet-moon" src="assets/images/moon-solid.svg" alt="">
+                        <a href="#" class="tablet-mode" class="mode" id="tablet-mode">Dark</a>
+                        <a href="#" class="light-text" id="tablet-mode-light">Light</a>
+                        <img src="assets/images/sunny-outline.svg" alt="">
+                    </div>
                 </ul>
             </nav>
-        </header>        
+        </header>  
+        <script src="main.js"></script>     
     </body>
 </html>
